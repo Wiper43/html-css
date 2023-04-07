@@ -14,9 +14,15 @@
 p {
     background-color:#FFCCCB;
     font-family: verdana,"DejaVu Sans", sans-serif;
+    font-size:12px;
+
 
 }
-
+ /*         
+            # =label for id
+            . =label for class
+ 
+ */
 #one{
     color:blue;
     font-size:36px;

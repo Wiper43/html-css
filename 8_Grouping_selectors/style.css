@@ -1,0 +1,20 @@
+
+/*   grouping selectors  */
+
+
+/*this block of code gives both classes similar formatting savign space*/
+.left, .right {
+    font-size:28px;
+    font-family:Helvetica, "Times New Roman", sans-serif;
+}
+
+.left{
+    background-color: black;
+    color: white;
+
+}
+
+.right{
+    background-color:yellow;
+
+}
