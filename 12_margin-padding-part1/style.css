@@ -6,9 +6,10 @@ body {
 .one {
   background: pink;
   border: 3px solid blue;
-  /* CHANGE ME */
+  /* CHANGE ME ok*/
   padding: 30px;
   margin: 10px;
+
 
 }
 
@@ -17,6 +18,8 @@ body {
   border: 3px solid purple;
   /* CHANGE ME */
   margin-bottom: 50px;
+  color: green;
+  
 }
 
 .three {
