@@ -1,0 +1,120 @@
+*{
+    /* outline: 2px solid red; */
+    margin:0px;
+    padding:0px;
+    font-size: 30px;
+}
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+/* content window BLUE */
+.container{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    border:5px solid green;
+    gap:0px;
+    background-color: rgb(151, 184, 151);
+    padding-bottom: 20px;
+}
+
+/* SECTIONS  */
+.container >div{
+    display:flex;
+    
+    flex:1;    
+    gap:8px;
+    min-height:60px;
+    justify-content:center;
+    margin:20px 20px 0px;
+    
+}
+.container .section2{
+    flex:1.5;
+    min-height:180px;
+}
+.container .section1 , .container .section3{
+    border:4px solid blue;
+    padding:10px;
+    background-color:aqua ;
+}
+
+
+/* SECTION1 */
+.section1 > div{
+    display:flex;
+    flex-direction:ROW;
+    justify-content:center;
+    ALIGN-Items:center;
+    flex:1;
+    border:4px solid rgb(133, 60, 60);
+    background-color:pink;
+}
+.section1 .child2 > div{
+    display:flex;
+    flex:1;
+    border: 4px solid red;
+    justify-content:center;
+    align-items:center;
+    min-height:35px;;
+    
+}
+
+
+/*SECTION 2 */
+
+.section2 > div{
+    /* margin:5px; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+    flex:1;
+}
+.section2 .child1 {
+    background-color: rgb(246, 128, 128);
+    border:4px solid rgb(148, 9, 9);
+    align-items:center;
+    gap:0px;
+}
+.section2 .child2 >div{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(246, 128, 128);
+    border:4px solid rgb(148, 9, 9);
+}
+
+
+/* SECTION 3 */
+.section3 >div{
+    display:flex;
+    gap: 8px;
+    flex:1;
+}
+.section3 .child1 , .section3 .child3{
+    justify-content:center;
+    ALIGN-Items:center;
+    flex:1;
+    border:4px solid rgb(133, 60, 60);
+    background-color:rgb(90, 148, 205);
+}
+.section3 .child2 >div{
+    display:flex;
+    border:4px solid rgb(133, 60, 60);
+    background-color:pink;
+    align-self:stretch;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+}
